@@ -2,9 +2,12 @@ import React from "react";
 import s from './Header.module.css';
 
 const Header = () => {
-    return <header className={s.header}>
-        <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/7d/c8/98/7dc89882-946f-07cb-80a1-cb943bbd2870/source/256x256bb.jpg" alt=""/>
-    </header>
+    return (
+        <header className={s.header}>
+            <img
+                src="https://point.bangbangeducation.ru/img/sbMRG5DK7O-2MNbywcvgS1IPqbmj_h1atA9UMOLTW6M/fill/746/560/ce/1/bG9jYWw6Ly9zdG9y/ZS81YWE4M2U0OWJh/Mjk2MTVmYTQ0MDFk/ODVjODM1ZDBkMzk2/MDQ3ZTE3MGM1OTRl/NmJlNzNjOGYxNDQ0/ZDY.png"/>
+        </header>
+    )
 }
 
 export default Header;
