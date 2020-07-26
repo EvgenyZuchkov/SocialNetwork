@@ -6,7 +6,7 @@ const ProfileInfo = () => {
     return <div>
         <div>
             <img className={s.wallpaper}
-                src="https://jssors8.azureedge.net/demos/image-slider/img/faded-monaco-scenery-evening-dark-picjumbo-com-image.jpg"/>
+                 src="https://jssors8.azureedge.net/demos/image-slider/img/faded-monaco-scenery-evening-dark-picjumbo-com-image.jpg"/>
         </div>
         <div className={s.discriptionBlock}>
             Ava + description
