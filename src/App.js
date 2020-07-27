@@ -10,15 +10,15 @@ import Music from "./Components/Music/Music";
 import Settings from "./Components/Settings/Settings";
 
 
-const App = () => {
+const App = (props) => {
     return (
         <BrowserRouter>
             <div className='app-wpapper'>
                 <Header/>
                 <Navbar/>
                 <div className='app-wpapper-content'>
-                    <Route path='/Dialogs' render ={ () => <Dialogs /> }/>
-                    <Route path='/Profile' render={ () => <Profile /> }/>
+                    <Route path='/Dialogs' render ={ () => <Dialogs dialogs = {props.dialogs} messages = {props.messages} /> }/>
+                    <Route path='/Profile' render={ () => <Profile posts = {props.posts} /> }/>
                     <Route path='/News' render={ () => <News /> }/>
                     <Route path='/Music' render={ () => <Music /> }/>
                     <Route path='/Settings' render={ () => <Settings /> }/>
