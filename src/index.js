@@ -29,12 +29,11 @@ let posts = [
     {id: '4', message: "Cool", likesCount: '7'},
 ]
 
-
 ReactDOM.render(
-  <React.StrictMode>
-    <App dialogs = {dialogs} messages = {messages} posts = {posts} />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <App dialogs={dialogs} messages={messages} posts={posts}/>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

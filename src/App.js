@@ -17,11 +17,11 @@ const App = (props) => {
                 <Header/>
                 <Navbar/>
                 <div className='app-wpapper-content'>
-                    <Route path='/Dialogs' render ={ () => <Dialogs dialogs = {props.dialogs} messages = {props.messages} /> }/>
-                    <Route path='/Profile' render={ () => <Profile posts = {props.posts} /> }/>
-                    <Route path='/News' render={ () => <News /> }/>
-                    <Route path='/Music' render={ () => <Music /> }/>
-                    <Route path='/Settings' render={ () => <Settings /> }/>
+                    <Route path='/Dialogs' render={() => <Dialogs dialogs={props.dialogs} messages={props.messages}/>}/>
+                    <Route path='/Profile' render={() => <Profile posts={props.posts}/>}/>
+                    <Route path='/News' render={() => <News/>}/>
+                    <Route path='/Music' render={() => <Music/>}/>
+                    <Route path='/Settings' render={() => <Settings/>}/>
                 </div>
             </div>
 
