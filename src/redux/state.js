@@ -18,13 +18,20 @@ let state = {
         ],
         messages: [
             {id: 1, message: 'Hi!'},
-            {id: 1, message: 'How is it-kamasutra?'},
+            {id: 1, message: 'Hi'},
             {id: 1, message: 'Yo!'},
             {id: 1, message: 'Yo!'},
             {id: 1, message: 'Yo!'},
             {id: 1, message: 'Yo!'},
         ],
     },
+    sitebar: {
+        friends: [
+            {id: '1', name: 'Andrey'},
+            {id: '2', name: 'Sasha'},
+            {id: '3', name: 'Masha'},
+        ]
+    }
 }
 
 export default state
