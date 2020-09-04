@@ -18,8 +18,7 @@ const App = (props) => {
             <div className='app-wpapper-content'>
                 <Route path='/Dialogs' render={() => <Dialogs state={props.state.dialogsPage}/>}/>
                 <Route path='/Profile' render={() => <Profile profilePage={props.state.profilePage}
-                                                              updateNewPostText={props.updateNewPostText}
-                                                              addPost={props.addPost}/>}/>
+                                                              dispatch={props.dispatch}/>}/>
                 <Route path='/News' render={() => <News/>}/>
                 <Route path='/Music' render={() => <Music/>}/>
                 <Route path='/Settings' render={() => <Settings/>}/>
