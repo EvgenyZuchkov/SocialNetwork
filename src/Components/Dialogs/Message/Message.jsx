@@ -14,11 +14,8 @@ const Message = (props) => {
         <div className={s.dialog}>
             {props.message}
             <img className={s.messageAvatar} src="https://klike.net/uploads/posts/2019-03/1551511784_4.jpg"/>
-
-            <textarea ref={newMessageElement} cols="10" rows="3"></textarea>
-            <button onClick={addMessage}>Add message</button>
-
         </div>
+
     )
 }
 
