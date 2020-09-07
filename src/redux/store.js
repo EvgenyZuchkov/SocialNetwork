@@ -32,13 +32,7 @@ let store = {
             ],
             newMessageBody: '',
         },
-        sidebar: {
-            friends: [
-                {id: '1', name: 'Andrey'},
-                {id: '2', name: 'Sasha'},
-                {id: '3', name: 'Masha'},
-            ]
-        }
+        sidebar:{}
     },
     _callSubscriber() {
         console.log()
